@@ -13,7 +13,7 @@ function Footer() {
         </p>
         <div className="navbar-collapse ">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <p className=" text-white">
+            <p className="nav-item text-white">
               <Link
                 className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
                 to="/"
