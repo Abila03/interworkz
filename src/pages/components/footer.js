@@ -29,7 +29,7 @@ function Footer() {
                 About
               </Link>
             </p>
-            <p className=" text-white">
+            <p className="nav-item text-white">
               <Link
                 className={`nav-link ${location.pathname === '/service' ? 'active' : ''}`}
                 to="/service"
@@ -45,7 +45,7 @@ function Footer() {
                 Careers
               </Link>
             </p>
-            <p className=" text-white">
+            <p className="nav-item text-white">
               <Link
                 className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}
                 to="/contact"
