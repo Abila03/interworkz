@@ -13,7 +13,7 @@ function Footer() {
         </p>
         <div className="navbar-collapse ">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <p className="nav-item text-white">
+            <p className=" text-white">
               <Link
                 className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
                 to="/"
@@ -21,7 +21,7 @@ function Footer() {
                 Home
               </Link>
             </p>
-            <p className="nav-item text-white">
+            <p className=" text-white">
               <Link
                 className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
                 to="/about"
@@ -29,7 +29,7 @@ function Footer() {
                 About
               </Link>
             </p>
-            <p className="nav-item text-white">
+            <p className=" text-white">
               <Link
                 className={`nav-link ${location.pathname === '/service' ? 'active' : ''}`}
                 to="/service"
@@ -37,7 +37,7 @@ function Footer() {
                 Services
               </Link>
             </p>
-            <p className="nav-item text-white">
+            <p className=" text-white">
               <Link
                 className={`nav-link ${location.pathname === '/careers' ? 'active' : ''}`}
                 to="/careers"
@@ -45,7 +45,7 @@ function Footer() {
                 Careers
               </Link>
             </p>
-            <p className="nav-item text-white">
+            <p className=" text-white">
               <Link
                 className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}
                 to="/contact"
