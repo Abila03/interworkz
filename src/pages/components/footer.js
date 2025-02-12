@@ -11,7 +11,7 @@ function Footer() {
         <p className="m-0 text-center text-white">
           2025 © Copyright - Interworkz Technology. All rights reserved
         </p>
-        <div className="navbar-collapse">
+        <div className="navbar-collapse text-white">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <p className="nav-item">
               <Link
