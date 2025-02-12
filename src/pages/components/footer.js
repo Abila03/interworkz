@@ -6,7 +6,7 @@ function Footer() {
   const location = useLocation();
 
   return (
-    <footer className="navbar navbar-expand-lg py-3 bg-dark">
+    <footer className="py-3 bg-dark">
       <div className="container">
         <p className="m-0 text-center text-white">
           2025 © Copyright - Interworkz Technology. All rights reserved
@@ -29,7 +29,7 @@ function Footer() {
                 About
               </Link>
             </p>
-            <p className="nav-item">
+            <p className="nav-item text-white">
               <Link
                 className={`nav-link ${location.pathname === '/service' ? 'active' : ''}`}
                 to="/service"
@@ -37,7 +37,7 @@ function Footer() {
                 Services
               </Link>
             </p>
-            <p className="nav-item">
+            <p className="nav-item text-white">
               <Link
                 className={`nav-link ${location.pathname === '/careers' ? 'active' : ''}`}
                 to="/careers"
@@ -45,7 +45,7 @@ function Footer() {
                 Careers
               </Link>
             </p>
-            <p className="nav-item">
+            <p className="nav-item text-white">
               <Link
                 className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}
                 to="/contact"
