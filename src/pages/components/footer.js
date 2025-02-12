@@ -10,16 +10,17 @@ function Footer() {
       <div className="container">
         <p className="m-0 text-center text-white">
           2025 © Copyright - Interworkz Technology. All rights reserved
+          <Link
+            className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
+            to="/"
+          >
+            Home
+          </Link>
         </p>
         <div className="navbar-collapse">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
-                className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
-                to="/"
-              >
-                Home
-              </Link>
+              
             </li>
             <li className="nav-item">
               <Link
