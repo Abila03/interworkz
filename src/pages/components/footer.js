@@ -13,46 +13,46 @@ function Footer() {
         </p>
         <div className="navbar-collapse">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            <p className="nav-item">
               <Link
                 className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
                 to="/"
               >
                 Home
               </Link>
-            </li>
-            <li className="nav-item">
+            </p>
+            <p className="nav-item">
               <Link
                 className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
                 to="/about"
               >
                 About
               </Link>
-            </li>
-            <li className="nav-item">
+            </p>
+            <p className="nav-item">
               <Link
                 className={`nav-link ${location.pathname === '/service' ? 'active' : ''}`}
                 to="/service"
               >
                 Services
               </Link>
-            </li>
-            <li className="nav-item">
+            </p>
+            <p className="nav-item">
               <Link
                 className={`nav-link ${location.pathname === '/careers' ? 'active' : ''}`}
                 to="/careers"
               >
                 Careers
               </Link>
-            </li>
-            <li className="nav-item">
+            </p>
+            <p className="nav-item">
               <Link
                 className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}
                 to="/contact"
               >
                 Contact
               </Link>
-            </li>
+            </p>
           </ul>
         </div>
       </div>
