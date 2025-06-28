@@ -12,7 +12,7 @@ function About() {
         <meta name="keywords" content="jaringan, wifi, UMKM, interworkz, router, jasa internet, troubleshooting jaringan" />
         <meta property="og:title" content="Interworkz - Profesional di Dunia Jaringan" />
         <meta property="og:image" content="/banner.jpg" />
-        <meta property="og:url" content="https://interworkz.vercel.app/" />
+        <meta property="og:url" content="https://interworkz.vercel.app" />
       </Helmet>
       <BannerAbout/>
       <Konten/>
