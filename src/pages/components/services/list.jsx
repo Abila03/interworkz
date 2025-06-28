@@ -13,7 +13,7 @@ function ListService() {
                     <p>✅ Setting WiFi (modem, router, repeater).</p>
                     <p>✅ Instalasi kabel LAN untuk rumah/kantor kecil.</p>
                     <p>✅ Troubleshooting jaringan (WiFi lemot, tidak bisa konek, dll.).</p>
-                    <Link className="text-decoration-none" to="/troubleshooting">
+                    <Link className="text-decoration-none" to="/service/troubleshooting">
                         Call to action
                         <i class="bi bi-arrow-right"></i>
                     </Link>
@@ -24,7 +24,7 @@ function ListService() {
                     <p>✅ Audit dan peningkatan keamanan WiFi.</p>
                     <p>✅ Konsultasi setup jaringan kantor/rumah kecil.</p>
                     <p>✅ Maintenance jaringan bulanan untuk UMKM atau warnet.</p>
-                    <Link className="text-decoration-none" to="/konsultasi">
+                    <Link className="text-decoration-none" to="/service/konsultasi">
                         Call to action
                         <i class="bi bi-arrow-right"></i>
                     </Link>
@@ -35,7 +35,7 @@ function ListService() {
                     <p>✅ Kabel LAN, konektor RJ45, dan alat crimping.</p>
                     <p>✅ Router WiFi murah (TP-Link, Tenda, dll.).</p>
                     <p>✅ Repeater WiFi dan perangkat jaringan kecil lainnya.</p>
-                    <Link className="text-decoration-none" to="/trading">
+                    <Link className="text-decoration-none" to="/service/trading">
                         Call to action
                         <i class="bi bi-arrow-right"></i>
                     </Link>

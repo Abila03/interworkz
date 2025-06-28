@@ -4,14 +4,12 @@ import "../style.css";
 
 function Header() {
   const location = useLocation();
-
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container px-5">
         <Link className="navbar-brand fw-bold text-white" to="/">
           Interworkz
         </Link>
-
         {/* Toggler button (untuk tampilan mobile) */}
         <button
           className="navbar-toggler"
@@ -24,7 +22,6 @@ function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -34,7 +31,7 @@ function Header() {
               <Link className={`nav-link ${location.pathname === "/about" ? "active" : ""}`} to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link ${location.pathname === "/service" ? "active" : ""}`} to="/service">Services</Link>
+              <Link className={`nav-link ${location.pathname.startsWith("/service") ? "active" : ""}`} to="/service">Services</Link>
             </li>
             <li className="nav-item">
               <Link className={`nav-link ${location.pathname === "/carrers" ? "active" : ""}`} to="/carrers">Carrers</Link>
