@@ -6,7 +6,7 @@ function Footer() {
   const location = useLocation();
 
   return (
-    <footer className="py-3 bg-dark">
+    <footer className="py-3 bg-primary">
       <div className="container">
         <p className="m-0 text-center text-white">
           2025 © Copyright - Interworkz Technology. All rights reserved

@@ -1,4 +1,6 @@
 import '../../style.css';
+import { Link } from "react-router-dom";
+
 
 function ListService() {
   return (
@@ -11,10 +13,10 @@ function ListService() {
                     <p>✅ Setting WiFi (modem, router, repeater).</p>
                     <p>✅ Instalasi kabel LAN untuk rumah/kantor kecil.</p>
                     <p>✅ Troubleshooting jaringan (WiFi lemot, tidak bisa konek, dll.).</p>
-                    <a class="text-decoration-none" href="#!">
+                    <Link className="text-decoration-none" to="/troubleshooting">
                         Call to action
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </Link>
                 </div>
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
@@ -22,10 +24,10 @@ function ListService() {
                     <p>✅ Audit dan peningkatan keamanan WiFi.</p>
                     <p>✅ Konsultasi setup jaringan kantor/rumah kecil.</p>
                     <p>✅ Maintenance jaringan bulanan untuk UMKM atau warnet.</p>
-                    <a class="text-decoration-none" href="#!">
+                    <Link className="text-decoration-none" to="/konsultasi">
                         Call to action
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </Link>
                 </div>
                 <div class="col-lg-4">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
@@ -33,10 +35,10 @@ function ListService() {
                     <p>✅ Kabel LAN, konektor RJ45, dan alat crimping.</p>
                     <p>✅ Router WiFi murah (TP-Link, Tenda, dll.).</p>
                     <p>✅ Repeater WiFi dan perangkat jaringan kecil lainnya.</p>
-                    <a class="text-decoration-none" href="#!">
+                    <Link className="text-decoration-none" to="/trading">
                         Call to action
                         <i class="bi bi-arrow-right"></i>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

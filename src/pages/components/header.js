@@ -6,8 +6,11 @@ function Header() {
   const location = useLocation(); // Dapatkan URL saat ini
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container px-5">
+        <Link className="navbar-brand fw-bold text-white" to="/">
+          Interworkz
+        </Link>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
