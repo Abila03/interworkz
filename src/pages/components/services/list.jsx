@@ -14,7 +14,7 @@ function ListService() {
                     <p>✅ Instalasi kabel LAN untuk rumah/kantor kecil.</p>
                     <p>✅ Troubleshooting jaringan (WiFi lemot, tidak bisa konek, dll.).</p>
                     <Link className="text-decoration-none" to="/service/troubleshooting">
-                        Call to action
+                        Selengkapnya
                         <i class="bi bi-arrow-right"></i>
                     </Link>
                 </div>
@@ -25,7 +25,7 @@ function ListService() {
                     <p>✅ Konsultasi setup jaringan kantor/rumah kecil.</p>
                     <p>✅ Maintenance jaringan bulanan untuk UMKM atau warnet.</p>
                     <Link className="text-decoration-none" to="/service/konsultasi">
-                        Call to action
+                        Selengkapnya
                         <i class="bi bi-arrow-right"></i>
                     </Link>
                 </div>
@@ -36,7 +36,7 @@ function ListService() {
                     <p>✅ Router WiFi murah (TP-Link, Tenda, dll.).</p>
                     <p>✅ Repeater WiFi dan perangkat jaringan kecil lainnya.</p>
                     <Link className="text-decoration-none" to="/service/trading">
-                        Call to action
+                        Selengkapnya
                         <i class="bi bi-arrow-right"></i>
                     </Link>
                 </div>

@@ -9,7 +9,7 @@ function Footer() {
     <footer className="py-3 bg-primary">
       <div className="container">
         <p className="m-0 text-center text-white">
-          2025 © Copyright - Interworkz Technology. All rights reserved
+          2026 © Copyright - Interworkz Technology. All rights reserved
         </p>
       </div>
     </footer>
