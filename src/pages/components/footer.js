@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
 import '../style.css';
 
 function Footer() {
-  const location = useLocation();
 
   return (
     <footer className="py-3 bg-primary">
